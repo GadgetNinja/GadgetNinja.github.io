@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gadget Ninja</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" media="screen" href="superfish.css">
+	<script src="hoverIntent.js"></script>
+	<script src="superfish.js"></script>
+		<script>
+
+	jQuery(document).ready(function(){
+		jQuery('ul.sf-menu').superfish();
+	});
+
+	</script>
+</head>
+<body>
+	<div id="logo_container">
+		<img src="img/logo.png" id="logo">
+	</div>
+
+	<div id="address">
+		<a href="tel:916-400-4826">
+			<p><span>Phone:</span> (916)400-4826</p>
+		</a>
+		<a href="http://maps.google.com/?q=6505 Folsom Blvd Sacramento, CA 95819">
+			<p><span>Address:</span> 6505 Folsom Blvd Sacramento, CA 95819</p>
+		</a>
+	</div>
+		
+	<div id="nav">
+		<ul class="sf-menu">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="services.html">Services</a>
+				<ul>
+					<li>
+						<a href="phones.html">Phones</a>
+					</li>
+					<li>
+						<a href="tablets.html">Tablets</a>
+					</li>
+					<li>
+						<a href="computers.html">Computers</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="pictures.html">Pictures</a>
+			</li>
+			<li>
+				<a href="hours.html">Hours and Location</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="welcome">
+		<h1>Welcome to Gadget Ninja Smartphone and Tablet Repair.</h1>
+		<br>
+		<h1>Let our highly skilled and certified TechNinjas diagnose and repair your devices.</h1>
+	</div>
+
+	<div id="repair">
+		<p>Our Certified TechNinja's Can Repair:</p>
+		<br>
+		<img src="img/battery.png">
+		<img src="img/droplet.png">
+		<img src="img/charger.png">
+		<img src="img/battery.png">
+		<img src="img/battery.png">
+		<br>
+		<!--img src="img/fix.png"-->
+	</div>
+
+	<div id="footer">
+		<p>&#169; 2014 Gadget Ninja, All Rights Reserved</p>
+		<br>
+		<p>Gadget Ninja is an Independent Service Company and are in no way affiliated with Apple, Google, Samsung or any other trademarked corporations or products. All rights belong to their respective owners.</p>
+	</div>
+</body>
+</html>

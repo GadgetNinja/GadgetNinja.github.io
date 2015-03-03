@@ -1,0 +1,84 @@
+/*This is used to find the border for all divs*/
+div {
+	border: 1px dashed black;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	float: left;
+}
+
+/*Universal CSS*/
+
+body {
+	margin: 0px;
+
+}
+
+#logo_container {
+	width: 100%;
+	display: inline-block;
+	position: static;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+}
+
+p {
+	display: inline-block;
+}
+
+p span {
+	font-weight: bold;
+	margin: auto
+}
+
+#welcome h1 {
+	text-align: center;
+	clear: both;
+}
+
+/*Adress modifiers*/
+
+#address {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+#address a:hover {
+	color: #DEDEDE;
+}
+
+#repair {
+	text-align: center;
+}
+
+#footer {
+	text-align: center;
+	font-size: 9px;
+}
+#nav {
+ 	padding: 0px;
+ 	background-color: #FEFEFE;
+ 	
+}
+
+/*SERVICES*/
+
+.service_img {
+    margin: 0 auto;
+    width: auto;
+}
+
+#test {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+
+#repair img {
+	float: left;
+	margin-left: 10%;
+}

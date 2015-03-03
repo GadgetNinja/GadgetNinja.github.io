@@ -1,0 +1,45 @@
+<!-- link to the CSS files for this menu type -->
+<link rel="stylesheet" media="screen" href="superfish.css">
+
+<!-- link to the JavaScript files (hoverIntent is optional) -->
+<!-- if you use hoverIntent, use the updated r7 version (see FAQ) -->
+<script src="hoverIntent.js"></script>
+<script src="superfish.js"></script>
+
+<!-- initialise Superfish -->
+<script>
+
+	jQuery(document).ready(function(){
+		jQuery('ul.sf-menu').superfish();
+	});
+
+</script>
+
+/*Navigation*/
+
+#nav {
+	width: 100%;
+	margin-bottom: 55px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block; /* display the dropdown */
+}
